@@ -13,7 +13,7 @@ function Home() {
           <Typewriter 
             
             options={{ 
-            strings:["Hi, My Name is adslkfja;dsfklja;sdlkfjJustin!","Welcome to my Website!"],
+            strings:["Hi, My Name is Justin!","Welcome to my Website!"],
             autoStart:true,
             delay:130,
             loop:true
