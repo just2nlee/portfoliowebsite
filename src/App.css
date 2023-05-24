@@ -1,0 +1,19 @@
+.App {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  background-color: #134074;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  z-index:1
+}
+
+.particles-container {
+  position: absolute;
+  z-index:0;
+}

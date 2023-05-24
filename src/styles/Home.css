@@ -1,0 +1,92 @@
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: 'League Spartan', sans-serif;
+  color: #EEF4ED;
+}
+
+.about {
+  width: 100%;
+  height: 625px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #0E0B16;
+  color: #EEF4ED;
+  z-index:100000
+}
+.Profilepic {
+  border-radius:90%;
+}
+.about h2 {
+  font-family:'League Spartan', sans-serif;
+  font-size: 70px;
+  color: #EEF4ED;
+  height: 30px;
+}
+
+.about .prompt {
+  width: 60%;
+  font-size: 30px;
+}
+.prompt svg {
+  font-size: 60px;
+  font-family: 'League Spartan', sans-serif;
+  margin: 5px;
+  color: #EEF4ED;
+}
+
+.skills {
+  font-size: 35px;
+  font-family: 'League Spartan', sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #134074;
+  align-items: center;
+}
+
+.skills h1 {
+  color: #EEF4ED;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.skills .list {
+  list-style: none;
+  width: 60%;
+}
+
+.list span {
+  font-size: 20px;
+}
+
+.LinkedInIcon {
+  z-index: 100000;
+}
+
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 40px;
+  }
+
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+
+  .skills {
+    text-align: center;
+  }
+  .list {
+    padding: 0;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,155 @@
+/* animate-fade-in-up */
+.mt-10-animate-fade-in-up {
+    z-index: 1000;
+    width: 50%;
+    padding-left: 350px;
+    padding-top: 60px;
+    font-family: 'Inter', sans-serif;
+    color: #EEF4ED;
+}
+.animate-fade-in-up {
+    animation: fadeInUp 0.5s ease-out;
+    opacity: 0;
+  }
+  
+  .animate-fade-in-up.active {
+    animation: fadeInUp 0.5s ease-out;
+    opacity: 1;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* font-league */
+  .font-league {
+    font-family: 'League Gothic', sans-serif;
+  }
+  
+  /* text styles */
+  .text-5xl {
+    font-size: 4rem;
+    line-height: 1.2;
+    letter-spacing: -0.05em;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  
+  .text-gray-700 {
+    color: #8DA9C4;
+  }
+  
+  /* spacing */
+  .mt-10 {
+    margin-top: 2.5rem;
+  }
+  
+  .mb-5 {
+    margin-bottom: 1.25rem;
+  }
+  
+  .mt-5 {
+    margin-top: 1.25rem;
+  }
+  
+  .mb-10 {
+    margin-bottom: 2.5rem;
+  }
+  
+  /* layout */
+  .w-full {
+    width: 100%;
+  }
+  
+  .h-full {
+    height: 100%;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-evenly {
+    justify-content: space-evenly;
+  }
+  
+  .h-[400px] {
+    height: 400px;
+  }
+  
+  .ml-[10%] {
+    margin-left: 10%;
+  }
+  
+  /* typography */
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
+  
+  .hover\:no-underline:hover {
+    text-decoration: none;
+  }
+  
+  /* link styles */
+  .text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  
+  .font-normal {
+    font-weight: normal;
+  }
+  
+  .border-b-2 {
+    border-bottom-width: 2px;
+  }
+  
+  .border-transparent {
+    border-color: transparent;
+  }
+  
+  .border-gray-700 {
+    border-color: #4b5563;
+  }
+  
+  .transition {
+    transition-property: all;
+  }
+  
+  .duration-300 {
+    transition-duration: 300ms;
+  }
+.link {
+    text-decoration: underline;
+    transition: text-decoration 0.3s ease-in-out;
+    margin-left: auto;
+    color: #8DA9C4;
+  }
+  
+  .link:hover {
+    text-decoration: none;
+  }
+  
