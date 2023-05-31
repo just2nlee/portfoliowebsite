@@ -4,7 +4,7 @@ import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import Typewriter from 'typewriter-effect';
 import "../styles/Home.css";
-import myImage from '../images/profilepic.jpg';
+import myImage from '../images/profilepic.png';
 function Home() {
   return (
     <div className="home">
