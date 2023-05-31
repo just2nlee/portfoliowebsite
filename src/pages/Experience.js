@@ -1,14 +1,30 @@
 import React from "react";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+import { Document, Page, pdfjs } from 'react-pdf';
+import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
-import "../styles/Experience.css"
+import Resume from "./resume";
+import resume from "/Users/iboos6life/Downloads/portfoliowebsite/src/images/Justin_Lee_Resume.pdf";
+import "../styles/Experience.css";
+
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
 
 function Experience() {
+  const handleDownloadResume = () => {
+    // Create a temporary link element
+    const link = document.createElement("a");
+    link.href = resume;
+    link.target = "_blank";
+    link.download = "Justin_Lee_Resume.pdf";
+    
+    // Simulate a click event to trigger the download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#000000">
@@ -85,7 +101,9 @@ function Experience() {
         </VerticalTimelineElement>
         
       </VerticalTimeline>
-      
+      <div className="download-resume">
+        <button onClick={handleDownloadResume}>Download Resume</button>
+      </div>
     </div>
   );
 }

@@ -6,3 +6,15 @@
     font-family: 'League Spartan', sans-serif;
     color: #8DA9C4;
 }
+.resume{
+    height: 190px;
+}
+.download-resume{
+    display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.download-resume button {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 17px;
+  }
