@@ -3,11 +3,10 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
-import resume from "/Users/iboos6life/Downloads/portfoliowebsite/src/images/Justin_Lee_Resume.pdf";
+import resume from "../images/Justin_Lee_Resume.pdf";
 import "../styles/Experience.css";
 
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 function Experience() {
