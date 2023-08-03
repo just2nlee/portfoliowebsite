@@ -1,10 +1,11 @@
 import { GoogleMap, Marker, InfoWindow } from '@react-google-maps/api';
 import React from "react";
-import '../styles/MyTravels.css'
+import '../styles/MyTravels.css';
 
 const locations = [
   { id: 1, lat: 40.7128, lng: -74.0060, description: 'New York City' },
   { id: 2, lat: 34.0522, lng: -118.2437, description: 'Los Angeles' },
+  { id: 3, lat: 38.7223, lng: -9.1393, description: 'Lisbon, Portugal' }, // Add Lisbon location
   // Add more locations as needed
 ];
 
@@ -14,9 +15,14 @@ function MyTravels() {
     height: '400px',
   };
 
-  const center = { lat: 40.7128, lng: -74.0060 }; // Center the map on a specific location
+  const center = { lat: 38.7223, lng: -9.1393 }; // Center the map on a specific location
 
   const [selectedLocation, setSelectedLocation] = React.useState(null);
+
+  const redMarkerIcon = {
+    url: 'https://maps.google.com/mapfiles/ms/icons/red-dot.png',
+    scaledSize: new window.google.maps.Size(32, 32), // Adjust the size of the icon
+  };
 
   return (
     <div className="front-component">
@@ -26,6 +32,7 @@ function MyTravels() {
             key={location.id}
             position={{ lat: location.lat, lng: location.lng }}
             onClick={() => setSelectedLocation(location)} // Set the selectedLocation state when Marker is clicked
+            icon={redMarkerIcon} // Use the custom icon for the marker
           />
         ))}
         {selectedLocation && (
