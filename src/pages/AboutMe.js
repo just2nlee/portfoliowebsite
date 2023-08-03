@@ -13,9 +13,10 @@ function AboutMe() {
                     sister, and my dog, Teemo, up until college. Before I got into Software Engineering, 
                     I had a very different path in mind. In fact, I was previously on the pre-med track and 
                     spent a lot of my time in high school shadowing doctors as well as competing as a YMCA swimmer. 
-                    As I ventured into college, I eventually declared myself as a computer science major after taking my 
-                    first computer science courses and going to my first hackathon (BostonHacks). In my freetime I love playing chess,
-                    working out, and keeping up with the New York Knicks and the NBA.
+                    As I ventured into college, I eventually declared myself as a Computer Science major after taking my 
+                    first Computer Science courses and going to my first hackathon (BostonHacks). In my freetime I love playing chess,
+                    working out, and keeping up with the New York Knicks and the NBA. I have also been getting into reading books recently
+                    and would appreciate any book recommendations!
                     Let's explore my journey and see how it has led me to where I am today!
                 </p>
                 </div>

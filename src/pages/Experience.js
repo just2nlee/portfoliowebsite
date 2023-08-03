@@ -35,7 +35,7 @@ function Experience() {
           Accenture (Seattle, WA)
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Incoming Business & Integration Architecture Analyst Intern
+            Technology Architecture Intern
           </h4>
           <p>
           <img src={require("../images/accenture.png")} alt="empathie" style={{ width: '100%', height: 'auto' }} /> 

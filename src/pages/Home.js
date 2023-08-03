@@ -13,9 +13,9 @@ function Home() {
           <Typewriter 
             
             options={{ 
-            strings:["Hi, My Name is Justin!","Welcome to my Website!"],
+            strings:["Hi, My Name is Justin!","Welcome to my Website!","Feel free to take a look around!"],
             autoStart:true,
-            delay:130,
+            delay:110,
             loop:true
             }}
             
@@ -23,7 +23,7 @@ function Home() {
         </h2>
         <img className="Profilepic" src = {myImage} alt = "Profile picture" style={{ width: 'auto', height: '280px', marginTop: '35px'}} />
         <div className="prompt">
-          <p>I'm a Junior studying Computer Science at Boston University with a passion for learning and creating software applications.</p>
+          <p>I'm a Senior studying Computer Science at Boston University with a passion for learning and creating software applications that have meaningful impact.</p>
           <a href = "https://www.linkedin.com/in/justinchaeminlee">
           <LinkedInIcon className = "LinkedInIcon"/>
           </a>
