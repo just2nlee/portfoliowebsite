@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
 import AboutMe from "./pages/AboutMe";
+import MyTravels from "./pages/MyTravels";
 import { useCallback } from "react";
 import { loadFull } from "tsparticles";
 import Particles from 'react-tsparticles';
@@ -105,8 +106,7 @@ function App() {
           <Navbar />
           <Routes >
             <Route path="/" element={<Home />} />
-            {/* <Route path="/projects" element={<Projects />} /> */}
-            {/* <Route path="/project/:id" element={<ProjectDisplay />} /> */}
+            <Route path="/mytravels" element = {<MyTravels />} />
             <Route path="/aboutme" element={<AboutMe />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/contact" element = {<Contact />} />
