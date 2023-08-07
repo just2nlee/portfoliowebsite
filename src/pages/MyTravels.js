@@ -24,6 +24,7 @@ function MyTravels() {
 
   return (
     <div className="front-component">
+      <p1 className = "info">Hi this is where I'll be updating info on my backpacking journey through Europe this fall!</p1>
       <GoogleMap mapContainerStyle={mapContainerStyle} center={center} zoom={5}>
         {locations.map((location) => (
           <Marker

@@ -7,3 +7,9 @@
     justify-content: center;
     flex-direction: column;
   }
+  .info {
+    color: white;
+    padding: 30px;
+    font-size: 25px;
+    font-family: 'League Spartan', sans-serif;
+  }
