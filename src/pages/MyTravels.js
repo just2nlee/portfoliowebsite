@@ -3,9 +3,7 @@ import React from "react";
 import '../styles/MyTravels.css';
 
 const locations = [
-  { id: 1, lat: 40.7128, lng: -74.0060, description: 'New York City' },
-  { id: 2, lat: 34.0522, lng: -118.2437, description: 'Los Angeles' },
-  { id: 3, lat: 38.7223, lng: -9.1393, description: 'Lisbon, Portugal' }, // Add Lisbon location
+  { id: 1, lat: 38.7223, lng: -9.1393, description: 'Lisbon, Portugal' }, // Add Lisbon location
   // Add more locations as needed
 ];
 
